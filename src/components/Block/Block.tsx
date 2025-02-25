@@ -5,7 +5,7 @@ import "./Block.css"
 
 const Block = ({task, onChange}: { task: ITask, onChange: () => void }) => {
     return (
-            <label htmlFor={"task-" + task.id} className={"block-label " + (task.completed ? "completed" : "")}>
+            <label id={"task-label"} htmlFor={"task-" + task.id} className={"block-label " + (task.completed ? "completed" : "")}>
                 <input className="checkbox-input" type="checkbox" defaultChecked={task.completed} id={"task-" + task.id}
                        onChange={onChange}/>
                 <div className="check-img">

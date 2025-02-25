@@ -7,7 +7,7 @@ const Input = ({value, onChange, addTask}: {
     addTask: KeyboardEventHandler<HTMLInputElement>
 }) => {
     return (
-        <input id="input" className="input" type="text" placeholder="What needs to be done?"
+        <input data-testid="input" className="input" type="text" placeholder="What needs to be done?"
                value={value}
                onChange={onChange}
                onKeyDown={addTask}/>

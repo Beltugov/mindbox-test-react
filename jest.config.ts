@@ -5,7 +5,7 @@ export default {
         '^.+\\.tsx?$': 'ts-jest',
     },
     moduleNameMapper: {
-        '\\.(css|less)$': '<rootDir>/__mocks__/styleMock.js',
+        '\\.(css|less)$': 'identity-obj-proxy',
         '\\.(gif|ttf|eot|svg|png)$': '<rootDir>/__ mocks __/fileMock.js',
     },
 };
