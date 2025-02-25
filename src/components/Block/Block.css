@@ -1,0 +1,40 @@
+.block-label {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.checkbox-input {
+    display: none;
+}
+
+.check-img {
+    border: 1px solid gray;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+.check-img img {
+    width: 16px;
+
+}
+
+.block * {
+    cursor: pointer;
+}
+
+.block label {
+    user-select: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}

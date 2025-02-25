@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #f3f3f3;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.header {
+    font-size: 6rem;
+    font-weight: 100;
+    letter-spacing:-6px;
+    color: #e8d8d7;
+    user-select: none;
+}
+
+.content {
+    background-color: #ffffff;
+    width: 40%;
+    box-shadow: 0 4px 12px 4px #dddddd;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.actions  * {
+    font-size:16px;
+    color: #5a5a5a;
+}

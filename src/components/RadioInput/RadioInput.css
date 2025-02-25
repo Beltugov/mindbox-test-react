@@ -1,0 +1,13 @@
+.filters-option {
+    margin: 0 12px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.filters-option__input {
+    display: none;
+}
+
+.active {
+    border: 1px solid #ccc;
+}
